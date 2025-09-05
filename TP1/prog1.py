@@ -1,5 +1,5 @@
 # prog1.py
-import fonctions as f   # on importe le fichier fonctions.py
+import fonctions as f
 
 while True:
     try:
@@ -10,9 +10,6 @@ while True:
         y = int(input("Entrer l'exposant y : "))
         res = f.puissance(x, y)
         print(f"{x} à la puissance {y} = {res}")
-
-        # print(f.puissance(2.5, 3))  # provoque TypeError
-        # print(f.puissance(2, 3.1))  # provoque TypeError
 
     except ValueError:
         print("Erreur : vous devez entrer un entier valide.")
