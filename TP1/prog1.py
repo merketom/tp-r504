@@ -1,4 +1,3 @@
-# prog1.py
 import fonctions as f
 
 while True:
