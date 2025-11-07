@@ -1,0 +1,85 @@
+{
+  "total_count": 4,
+  "artifacts": [
+    {
+      "id": 4329917168,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5OTE3MTY4",
+      "name": "Test",
+      "size_in_bytes": 4757,
+      "url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329917168",
+      "archive_download_url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329917168/zip",
+      "expired": false,
+      "digest": "sha256:a4a81692e1a69191c067688d0621860fb46518e5f2db14eb1db1b308ccdfe8db",
+      "created_at": "2025-10-21T15:25:22Z",
+      "updated_at": "2025-10-21T15:25:22Z",
+      "expires_at": "2026-01-19T15:24:43Z",
+      "workflow_run": {
+        "id": 18688987551,
+        "repository_id": 1080514897,
+        "head_repository_id": 1080514897,
+        "head_branch": "main",
+        "head_sha": "2b3ac98390f2b2878a328d88cb83b03e498c9f04"
+      }
+    },
+    {
+      "id": 4329616691,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5NjE2Njkx",
+      "name": "Test",
+      "size_in_bytes": 4757,
+      "url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329616691",
+      "archive_download_url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329616691/zip",
+      "expired": false,
+      "digest": "sha256:bc7712aad43ea1bfd3569d15c70f12d79f68e138e9b1b677b9f39456ec54d894",
+      "created_at": "2025-10-21T15:02:16Z",
+      "updated_at": "2025-10-21T15:02:16Z",
+      "expires_at": "2026-01-19T15:01:41Z",
+      "workflow_run": {
+        "id": 18688267885,
+        "repository_id": 1080514897,
+        "head_repository_id": 1080514897,
+        "head_branch": "main",
+        "head_sha": "4f0aa1849b4cf5fdd28dbdad6edf1fd4141c75ee"
+      }
+    },
+    {
+      "id": 4329570435,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5NTcwNDM1",
+      "name": "Test",
+      "size_in_bytes": 4630,
+      "url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329570435",
+      "archive_download_url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329570435/zip",
+      "expired": false,
+      "digest": "sha256:33dcf9fa55f5f92d18f42f6edfa87bef98d241c431414ca196d8b50b70b5b7c6",
+      "created_at": "2025-10-21T14:58:33Z",
+      "updated_at": "2025-10-21T14:58:33Z",
+      "expires_at": "2026-01-19T14:58:10Z",
+      "workflow_run": {
+        "id": 18688165205,
+        "repository_id": 1080514897,
+        "head_repository_id": 1080514897,
+        "head_branch": "main",
+        "head_sha": "c587405766d54255d2142804e67d5a14d097df25"
+      }
+    },
+    {
+      "id": 4329276364,
+      "node_id": "MDg6QXJ0aWZhY3Q0MzI5Mjc2MzY0",
+      "name": "Test",
+      "size_in_bytes": 1071,
+      "url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329276364",
+      "archive_download_url": "https://api.github.com/repos/merketom/graphes/actions/artifacts/4329276364/zip",
+      "expired": false,
+      "digest": "sha256:949bc917ce4282949f9c1f072112a427205ad71fe0a78834be0940714af486bc",
+      "created_at": "2025-10-21T14:35:20Z",
+      "updated_at": "2025-10-21T14:35:20Z",
+      "expires_at": "2026-01-19T14:33:38Z",
+      "workflow_run": {
+        "id": 18687438526,
+        "repository_id": 1080514897,
+        "head_repository_id": 1080514897,
+        "head_branch": "main",
+        "head_sha": "405d42cc5c9ca28eb9c52e89ab4eb25dcd98747f"
+      }
+    }
+  ]
+}
