@@ -1,0 +1,12 @@
+FROM alpine:latest
+
+#installation bash et redis-cli
+RUN apk add --no-cache bash redis
+
+#copie du script
+COPY producer.sh /srv
+
+WORKDIR /srv
+
+#lancement du script
+CMD ["bash","-c","./producer.sh"]
