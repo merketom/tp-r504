@@ -3,13 +3,13 @@
 # Consomme les valeurs dans la liste Redis
 
 #Paramètres
-PARAM=s_redis
+PARAM="redis://default:X3vemLGf1gbTF9WYejtskPir0S9IYQ1T@redis-11814.c275.us-east-1-4.ec2.cloud.redislabs.com:11814"
 QUEUE="mafile"
 threshold=20000
 delay_process=3
 
 #Vérification connexion Redis
-redis-cli -h $PARAM DBSIZE >/dev/null
+redis-cli -u "$PARAM" DBSIZE >/dev/null
 if ! [ $? = 0 ]
 then
     echo "Erreur, pas de connexion avec le serveur redis !"
@@ -21,12 +21,12 @@ echo "Connexion Redis OK !"
 #Boucle infinie
 while true
 do
-    nb=$(redis-cli -h $PARAM --raw LLEN $QUEUE)
+    nb=$(redis-cli -u "$PARAM" --raw LLEN $QUEUE)
 
-    if [ $nb -gt 0 ]
+    if [ "$nb" -gt 0 ] 2>/dev/null
     then
         #dépilage d'un élément
-        value=$(redis-cli -h $PARAM --raw RPOP $QUEUE)
+        value=$(redis-cli -u "$PARAM" --raw RPOP $QUEUE)
 
         echo "Valeur lue : $value"
 
